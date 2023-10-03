@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/shoppingListFragment">
+
+    <fragment
+        android:id="@+id/shoppingListFragment"
+        tools:layout="@layout/shopping_list_fragment"
+        android:name="albek.petprojects.unisafetestapp.feature.shopping_list.presentation.ShoppingListFragment"
+        android:label="ShoppingListFragment" >
+        <action
+            android:id="@+id/action_shoppingListFragment_to_shoppingListDetailFragment"
+            app:destination="@id/shoppingListDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoppingListDetailFragment"
+        tools:layout="@layout/shopping_list_detail_fragment"
+        android:name="albek.petprojects.unisafetestapp.feature.shopping_list_detail.presentation.ShoppingListDetailFragment"
+        android:label="ShoppingListDetailFragment" >
+        <action
+            android:id="@+id/action_shoppingListDetailFragment_to_shoppingListFragment"
+            app:destination="@id/shoppingListFragment" />
+    </fragment>
+</navigation>

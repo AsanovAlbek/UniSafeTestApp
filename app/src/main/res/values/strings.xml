@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UniSafeTestApp</string>
+    <string name="network_error">Нет подключения к сети интернет</string>
+    <string name="unsuccessful_error">Ведутся технические работы</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="fab_description">fab</string>
+    <string name="retry">Попробовать снова</string>
+    <string name="name_hint">Имя</string>
+    <string name="count">Количество</string>
+    <string name="add">Добавить</string>
+    <string name="close">Закрыть</string>
+    <string name="empty_message">Здесь пока что ничего нет, но вы можете добавить элементы, нажав \'+\'</string>
+    <string name="filed_should_be_not_empty">Поле не может быть пустым</string>
+    <string name="shopping_lists_title">Списки покупок</string>
+    <string name="shopping_items">Покупки</string>
+    <string name="test_show_shopping_item">Нажат продукт %s, количеством %d штук</string>
+    <string name="shopping_item_title">Список: %s</string>
+</resources>
